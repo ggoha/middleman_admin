@@ -1,0 +1,10 @@
+=form_tag(file_path(@file_name), method: "PATCH") do |f|
+  =text_area_tag("file", @file)
+  =submit_tag("Сохранить")
+end
+
+css:
+  textarea{
+    width: 99.9%;
+    height: 99vh;
+  }
